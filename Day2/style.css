@@ -1,0 +1,25 @@
+h1 {
+    color: green;
+}
+
+.para {
+    /* border-style: solid;
+    border-color: red;
+    border-width: 10px; */
+
+    border: 3px solid rgb(8, 12, 241);
+
+    /* border-left: 30px solid blue;
+    border-right: 10px dashed red; */
+
+    padding: 30px;
+
+    margin: 30px;
+
+    width: 50%;
+
+    text-align: left;
+    text-align: center;
+    text-align: right;
+    text-align: justify;
+}

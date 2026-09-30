@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+
+    padding: 10px 30px;
+}
+
+
+.hero {
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: pink;
+    background-image: url('https://www.w3schools.com/w3images/architect.jpg');
+    background-size: cover;
+}
+
+header {
+    font-size: 32px;
+    margin: 30px 0;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.projects img {
+    width: 100%;
+}
+
+.contact {
+    margin: 20px 0;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+.contact form {
+    display: grid;
+    gap: 10px;
+}
+
+.contact form input {
+    padding: 10px;
+}
+
+.contact form input[type="submit"] {
+    background-color: black;
+    color: white;
+    width: fit-content;
+}
+
+footer {
+    text-align: center;
+
+    background-color: black;
+    color: white;
+
+    padding: 40px
+}
